@@ -4,18 +4,18 @@
     "links": [
         {
             "title":"My Personal Website",
-            "url":"https://libbyrollings.com",
+            "href":"https://libbyrollings.com",
             "image":"https://libbyrollings.com/images/website.png"
         }
     ],
     "socials": [
         {
             "title":"Instagram",
-            "url":"https://www.instagram.com/libbyrollings/"
+            "href":"https://www.instagram.com/libbyrollings/"
         },
         {
             "title":"TitTok",
-            "url":"https://www.tiktok.com/@libbyrollings"
+            "href":"https://www.tiktok.com/@libbyrollings"
         }
     ]
     
