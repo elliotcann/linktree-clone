@@ -3,16 +3,18 @@ import data from "../data.json";
 
 function LinkCard({ href, title, image }: { href: string; title: string; image?: string }) {
   return (
-    <a href={href} className="flex items-center p-4 w-full border rounded-md hover:scale-105 transition-all border-gray-300 mb-3">
-      <div className="flex flex-col text-center">
+    <a href={href} className="flex items-center p-1 w-full border rounded-md hover:scale-101 transition-all border-gray-300 mb-3">
+      <div className="flex text-center w-full">
+        {image && (
           <Image 
-          className="rounded-full"
-          src={data.avatar} 
-          alt={data.name} 
-          width={40} 
-          height={40} 
-        />
-        <h2 className="font-semibold">{title}</h2>
+            className="rounded-sm mr-2"
+            src={image} 
+            alt={title} 
+            width={40} 
+            height={40}
+          />
+        )}
+        <h2 className="font-semibold w-full text-center">{title}</h2>
       </div>
     </a>
   );

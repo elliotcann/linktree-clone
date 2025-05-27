@@ -5,7 +5,12 @@
         {
             "title":"My Personal Website",
             "href":"https://libbyrollings.com",
-            "image":"https://libbyrollings.com/images/website.png"
+            "image":"/profile-image.png"
+        },
+        {
+            "title":"Follow me on Instagram",
+            "href":"https://www.instagram.com/libbyrollings/",
+            "image":"/instagram.png"
         }
     ],
     "socials": [
