@@ -13,7 +13,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Libby Rollings",
+  title: "Libby Rollings - LinkTree",
+  authors: [
+    {
+      name: "Elliot Cann",
+      url: "https://elliotcann.com",
+    },
+  ],
+  keywords: [
+    "Libby Rollings",
+    "LinkTree",
+    "Links",
+    "Social Media",
+    "Portfolio",
+    "Personal Website",
+  ],
+  viewport: "width=device-width, initial-scale=1",
   description: "LinkTree for Libby Rollings",
 };
 

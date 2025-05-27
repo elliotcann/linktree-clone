@@ -5,7 +5,7 @@
         {
             "title":"My Personal Website",
             "href":"https://libbyrollings.com",
-            "image":"/profile-image.png"
+            "image":"/LRProfile.jpeg"
         },
         {
             "title":"Follow me on Instagram",
@@ -21,6 +21,10 @@
         {
             "title":"TitTok",
             "href":"https://www.tiktok.com/@libbyrollings"
+        },
+        {  
+            "title":"YouTube",
+            "href":"https://www.youtube.com/@libbyrollings"
         }
     ]
     
