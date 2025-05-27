@@ -3,22 +3,39 @@ import data from "../data.json";
 
 function LinkCard({ href, title, image }: { href: string; title: string; image?: string }) {
   return (
-    <a href={href} className="flex items-center p-1 w-full border rounded-md hover:scale-101 transition-all border-gray-300 bg-gray-100 mb-3">
-      <div className="flex text-center w-full">
-        <div className="w-10 h-10">
-          {image && (
-            <Image 
-              className="rounded-sm mr-2"
-              src={image} 
-              alt={title} 
-              width={40} 
-              height={40}
-            />
-          )}
+    <div
+      className="w-full border-r-2 border-b-2 rounded pr-1 pb-1 mb-3 transition-all hover:scale-10"
+      style={{
+        borderRightColor: "#f820b4",
+        borderBottomColor: "#f820b4", 
+      }}
+    >
+      <a
+        href={href}
+        className="flex items-center p-1 bg-gray-100 border-r-3 border-b-3 rounded-md w-full"
+        style={{  
+          borderRightColor: "#02a9e7",
+          borderBottomColor: "#02a9e7"
+       }}
+      >
+        <div className="flex text-center w-full">
+          <div className="w-10 h-10">
+            {image && (
+              <Image
+                className="rounded-sm mr-2"
+                src={image}
+                alt={title}
+                width={40}
+                height={40}
+              />
+            )}
           </div>
-        <h2 className="flex justify-center items-center font-semibold w-full text-gray-800 -ml-10">{title}</h2>
-      </div>
-    </a>
+          <h2 className="flex justify-center items-center font-semibold w-full text-gray-800 -ml-10">
+            {title}
+          </h2>
+        </div>
+      </a>
+    </div>
   );
 }
 
@@ -82,7 +99,7 @@ export default function Home() {
     {data.links.map((link) => (
       <LinkCard key={link.href} {...link} />
     ))}
-    <div className="flex items-center gap-1 mt-5 text-white">
+    <div className="flex items-center gap-2 mt-5 text-white">
     {data.socials.map((link) => {
       if (link.href.includes('instagram')) {
         return (      
