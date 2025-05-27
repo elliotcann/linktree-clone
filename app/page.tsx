@@ -87,14 +87,14 @@ export default function Home() {
       className="rounded-full"
       src={data.avatar} 
       alt={data.name} 
-      width={100} 
-      height={100} 
+      width={120} 
+      height={120} 
     />
-    <div className="flex justify-center items-center gap-1 mt-4 mb-2">
-      <h1 className={`font-semibold text-2xl text-white ${lobster.className}`}>
+    <div className="flex items-center justify-center mt-4 mb-2 w-full">
+      <h1 className={`font-semibold text-3xl text-white text-center ${lobster.className} flex items-center gap-2`}>
         {data.name}
+        <VerifiedIcon />
       </h1>
-      <VerifiedIcon />
     </div>
     <h2 className="text-gray-300 mb-8 text-sm text-white">
       {data.bio}
