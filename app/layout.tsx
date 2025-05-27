@@ -28,8 +28,12 @@ export const metadata: Metadata = {
     "Portfolio",
     "Personal Website",
   ],
-  viewport: "width=device-width, initial-scale=1",
-  description: "LinkTree for Libby Rollings",
+  description: "LinkTree for Libby Rollings"
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
