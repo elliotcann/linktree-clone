@@ -3,7 +3,7 @@ import data from "../data.json";
 
 function LinkCard({ href, title, image }: { href: string; title: string; image?: string }) {
   return (
-    <a href={href} className="flex items-center p-1 w-full border rounded-md hover:scale-101 transition-all border-gray-300 mb-3">
+    <a href={href} className="flex items-center p-1 w-full border rounded-md hover:scale-101 transition-all border-gray-300 bg-gray-100 mb-3">
       <div className="flex text-center w-full">
         {image && (
           <Image 
@@ -14,7 +14,7 @@ function LinkCard({ href, title, image }: { href: string; title: string; image?:
             height={40}
           />
         )}
-        <h2 className="font-semibold w-full text-center">{title}</h2>
+        <h2 className="font-semibold w-full text-center text-gray-800">{title}</h2>
       </div>
     </a>
   );
@@ -30,7 +30,7 @@ export default function Home() {
       width={96} 
       height={96} 
     />
-    <h1 className="font-semibold mt-4 mb-8 text-xl">
+    <h1 className="font-semibold mt-4 mb-8 text-xl text-white">
       {data.name}
     </h1>
     {data.links.map((link) => (
