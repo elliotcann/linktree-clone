@@ -1,10 +1,11 @@
 {
     "name": "Libby Rollings",
-    "avater": "instagram.com/libbyrollings",
+    "avatar": "/profile-image.png",
     "links": [
         {
             "title":"My Personal Website",
-            "url":"https://libbyrollings.com"
+            "url":"https://libbyrollings.com",
+            "image":"https://libbyrollings.com/images/website.png"
         }
     ],
     "socials": [
