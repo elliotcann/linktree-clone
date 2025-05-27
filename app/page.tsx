@@ -1,10 +1,13 @@
 import Image from "next/image";
 import data from "../data.json";
+import { Lobster } from "next/font/google";
+
+const lobster = Lobster({ subsets: ["latin"], weight: "400" });
 
 function LinkCard({ href, title, image }: { href: string; title: string; image?: string }) {
   return (
     <div
-      className="w-full border-r-2 border-b-2 rounded pr-1 pb-1 mb-3 transition-all hover:scale-10"
+      className="w-full border-r-2 border-b-2 rounded-md pr-1 pb-1 mb-3 transition-all hover:scale-10"
       style={{
         borderRightColor: "#f820b4",
         borderBottomColor: "#f820b4", 
@@ -30,7 +33,7 @@ function LinkCard({ href, title, image }: { href: string; title: string; image?:
               />
             )}
           </div>
-          <h2 className="flex justify-center items-center font-semibold w-full text-gray-800 -ml-10">
+          <h2 className="flex justify-center items-center font-semibold w-full text-black -ml-10">
             {title}
           </h2>
         </div>
@@ -84,11 +87,11 @@ export default function Home() {
       className="rounded-full"
       src={data.avatar} 
       alt={data.name} 
-      width={96} 
-      height={96} 
+      width={100} 
+      height={100} 
     />
-    <div className="flex justify-center items-center gap-1 mt-4">
-      <h1 className="font-semibold text-xl text-white">
+    <div className="flex justify-center items-center gap-1 mt-4 mb-2">
+      <h1 className={`font-semibold text-2xl text-white ${lobster.className}`}>
         {data.name}
       </h1>
       <VerifiedIcon />
