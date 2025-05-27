@@ -1,16 +1,27 @@
 {
     "name": "Libby Rollings",
-    "avatar": "/profile-image.png",
+    "avatar": "/LRProfileImg.jpeg",
+    "verified": "/verified.png",
+    "bio": "Bristol Based Singer & Songwriter",
     "links": [
         {
             "title":"My Personal Website",
             "href":"https://libbyrollings.com",
-            "image":"/LRProfile.jpeg"
+            "image":"/LRProfileImg.jpeg"
         },
         {
-            "title":"Follow me on Instagram",
+            "title":"Follow My Instagram",
             "href":"https://www.instagram.com/libbyrollings/",
             "image":"/instagram.png"
+        },
+        {   "title":"Follow My Tiktok",
+            "href":"https://www.tiktok.com/@libbyrollings",
+            "image":"/tiktok.png"
+        },
+        {
+            "title":"Subscribe To My YouTube",
+            "href":"https://www.youtube.com/libbyrollings",
+            "image":"/youtube.png"
         }
     ],
     "socials": [
