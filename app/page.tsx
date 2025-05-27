@@ -7,7 +7,7 @@ const lobster = Lobster({ subsets: ["latin"], weight: "400" });
 function LinkCard({ href, title, image }: { href: string; title: string; image?: string }) {
   return (
     <div
-      className="w-full border-r-2 border-b-2 rounded-md pr-1 pb-1 mb-3 transition-all hover:scale-10"
+      className="w-full border-r-2 border-b-2 rounded-md pr-1 pb-1 mb-3 transition-all hover:scale-101"
       style={{
         borderRightColor: "#f820b4",
         borderBottomColor: "#f820b4", 
