@@ -5,21 +5,21 @@
     "bio": "Bristol Based Singer & Songwriter",
     "links": [
         {
-            "title":"My Personal Website",
+            "title":"Personal Website",
             "href":"https://libbyrollings.com/porfolio",
             "image":"/LRLogo.svg"
         },
         {
-            "title":"Follow My Instagram",
+            "title":"Follow On Instagram",
             "href":"https://www.instagram.com/libbymusicuk/",
             "image":"/Instagram.svg"
         },
-        {   "title":"Follow My Tiktok",
+        {   "title":"Follow On Tiktok",
             "href":"https://www.tiktok.com/@libbyrollings",
             "image":"/TikTok.svg"
         },
         {
-            "title":"Subscribe To My YouTube",
+            "title":"Subscribe On YouTube",
             "href":"https://www.youtube.com/libbyrollings",
             "image":"/YouTube.svg"
         }
@@ -27,7 +27,7 @@
     "socials": [
         {
             "title":"Instagram",
-            "href":"https://www.instagram.com/libbyrollings/"
+            "href":"https://www.instagram.com/libbymusicuk/"
         },
         {
             "title":"TitTok",
@@ -35,7 +35,7 @@
         },
         {  
             "title":"YouTube",
-            "href":"https://www.youtube.com/@libbyrollings"
+            "href":"https://www.youtube.com/libbyrollings"
         }
     ]
     
