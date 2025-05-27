@@ -7,21 +7,21 @@
         {
             "title":"My Personal Website",
             "href":"https://libbyrollings.com",
-            "image":"/LRProfileImg.jpeg"
+            "image":"/LRLogo.svg"
         },
         {
             "title":"Follow My Instagram",
             "href":"https://www.instagram.com/libbyrollings/",
-            "image":"/instagram.png"
+            "image":"/Instagram.svg"
         },
         {   "title":"Follow My Tiktok",
             "href":"https://www.tiktok.com/@libbyrollings",
-            "image":"/tiktok.png"
+            "image":"/TikTok.svg"
         },
         {
             "title":"Subscribe To My YouTube",
             "href":"https://www.youtube.com/libbyrollings",
-            "image":"/youtube.png"
+            "image":"/YouTube.svg"
         }
     ],
     "socials": [
