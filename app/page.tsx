@@ -80,69 +80,99 @@ export function TikTokIcon() {
   );
 }
 
+function Star({ style }: { style: React.CSSProperties }) {
+  return (
+    <div
+      className="pointer-events-none fixed z-0"
+      style={{
+        ...style,
+        width: "4px",
+        height: "4px",
+        borderRadius: "50%",
+        background: "white",
+        boxShadow: "0 0 8px 2px #fff, 0 0 16px 4px #f820b4",
+        opacity: 0.8,
+        animation: "twinkle 2s infinite alternate",
+      }}
+    />
+  );
+}
+
 export default function Home() {
  return (
-  <div className="flex items-center flex-col max-auto w-full justify-center mt-16 px-8">
-    <Image 
-      className="rounded-full"
-      src={data.avatar} 
-      alt={data.name} 
-      width={120} 
-      height={120} 
-    />
-    <div className="flex items-center justify-center mt-4 mb-2 w-full">
-      <h1 className={`font-semibold text-3xl text-white text-center ${lobster.className} flex items-center gap-2`}>
-        {data.name}
-        <VerifiedIcon />
-      </h1>
+  <>
+    <Star style={{ top: "10%", left: "20%" }} />
+    <Star style={{ top: "20%", left: "70%" }} />
+    <Star style={{ top: "5%", left: "80%" }} />
+    <Star style={{ top: "80%", left: "80%" }} />
+    <Star style={{ top: "30%", left: "5%" }} />
+    <Star style={{ top: "35%", left: "85%" }} />
+    <Star style={{ top: "90%", left: "15%" }} />
+    <Star style={{ top: "95%", left: "55%" }} />
+    <div className="relative z-10 flex items-center flex-col">
+      <div className="flex items-center flex-col max-auto w-full justify-center mt-16 px-8">
+        <Image 
+          className="rounded-full"
+          src={data.avatar} 
+          alt={data.name} 
+          width={120} 
+          height={120} 
+        />
+        <div className="flex items-center justify-center mt-4 mb-2 w-full">
+          <h1 className={`font-semibold text-3xl text-white text-center ${lobster.className} flex items-center gap-2`}>
+            {data.name}
+            <VerifiedIcon />
+          </h1>
+        </div>
+        <h2 className="text-gray-300 mb-8 text-sm text-white">
+          {data.bio}
+        </h2>
+        {data.links.map((link) => (
+          <LinkCard key={link.href} {...link} />
+        ))}
+        <div className="flex items-center gap-2 mt-5 text-white">
+        {data.socials.map((link) => {
+          if (link.href.includes('instagram')) {
+            return (      
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <InstagramIcon />
+              </a>
+            );
+          }
+          if (link.href.includes('tiktok')) {
+            return (     
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <TikTokIcon />
+              </a>
+            )
+          }
+          if (link.href.includes('youtube')) {
+            return (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <YouTubeIcon />
+              </a>
+            );
+          }
+        })}
+        </div>
+      </div>
     </div>
-    <h2 className="text-gray-300 mb-8 text-sm text-white">
-      {data.bio}
-    </h2>
-    {data.links.map((link) => (
-      <LinkCard key={link.href} {...link} />
-    ))}
-    <div className="flex items-center gap-2 mt-5 text-white">
-    {data.socials.map((link) => {
-      if (link.href.includes('instagram')) {
-        return (      
-          <a
-            key={link.href}
-            href={link.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <InstagramIcon />
-          </a>
-        );
-      }
-      if (link.href.includes('tiktok')) {
-        return (     
-          <a
-            key={link.href}
-            href={link.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <TikTokIcon />
-          </a>
-        )
-      }
-      if (link.href.includes('youtube')) {
-        return (
-          <a
-            key={link.href}
-            href={link.href}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <YouTubeIcon />
-          </a>
-        );
-      }
-    })}
-    </div>
-  </div>
+  </>
  );
 }
 

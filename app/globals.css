@@ -32,3 +32,8 @@ body {
     hsl(0deg 0% 0%) 100%
   );
 }
+
+@keyframes twinkle {
+  0% { opacity: 0.6; }
+  100% { opacity: 1; }
+}
