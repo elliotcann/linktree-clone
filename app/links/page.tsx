@@ -15,7 +15,7 @@ function LinkCard({ href, title, image }: { href: string; title: string; image?:
     >
       <a
         href={href}
-        className="flex items-center p-1 bg-gray-100 border-r-3 border-b-3 rounded-md w-full"
+        className="no-underline flex items-center p-1 bg-gray-100 border-r-3 border-b-3 rounded-md w-full"
         style={{  
           borderRightColor: "#02a9e7",
           borderBottomColor: "#02a9e7"

@@ -26,7 +26,7 @@ export default function Home() {
         >
           <a
             href={data.linktree}
-            className="flex items-center p-1 bg-gray-100 border-r-3 border-b-3 rounded-md"
+            className="no-underline flex items-center p-1 bg-gray-100 border-r-3 border-b-3 rounded-md"
             style={{  
               borderRightColor: "#02a9e7",
               borderBottomColor: "#02a9e7"
