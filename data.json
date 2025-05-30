@@ -6,13 +6,13 @@
     "bio": "Bristol Based Singer & Songwriter",
     "linktree": "https://libbyrollings.com/links",
     "linktreeTitle": "Libby Rollings Links",
+    "image": "/LRLogo-NoBG.svg",
 
     "links": [
         {
             "title":"Personal Website",
             "href":"https://libbyrollings.com/",
-            "image":"/LRLogo.svg",
-            "altImage": "/LRLogo-NoBG.svg"
+            "image":"/LRLogo.svg"
         },
         {
             "title":"Follow On Instagram",

@@ -7,7 +7,7 @@ export default function Home() {
     <div className="relative z-10 flex items-center flex-col overscroll-none">
       <div className="flex items-center flex-col max-auto w-full justify-center my-16 px-8">
         <Image 
-          src={data.links[0].altImage} 
+          src={data.image} 
           alt="Libby Rollings Logo"
           width={400}
           height={400}
