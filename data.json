@@ -11,7 +11,8 @@
         {
             "title":"Personal Website",
             "href":"https://libbyrollings.com/",
-            "image":"/LRLogo.svg"
+            "image":"/LRLogo.svg",
+            "altImage": "/LRLogo-NoBG.svg"
         },
         {
             "title":"Follow On Instagram",

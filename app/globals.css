@@ -15,7 +15,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
-  background-color: var(--background);
+  background-color: black;
 }
 
 body.gradient-bg {

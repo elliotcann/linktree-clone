@@ -5,14 +5,14 @@ export default function Home() {
   return (
 
     <div className="relative z-10 flex items-center flex-col overscroll-none">
-      <div className="flex items-center flex-col max-auto w-full justify-center mt-16 px-8">
+      <div className="flex items-center flex-col max-auto w-full justify-center my-16 px-8">
         <Image 
-          src={data.links[0].image} 
+          src={data.links[0].altImage} 
           alt="Libby Rollings Logo"
           width={400}
           height={400}
         />
-        <div className="flex items-center justify-center mb-8 w-full">
+        <div className="flex items-center justify-center my-8 w-full">
           <h1 className="font-semibold text-xl text-white text-center flex items-center gap-2">
             {data.status}
           </h1>
