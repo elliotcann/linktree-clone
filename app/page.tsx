@@ -4,7 +4,7 @@ import data from "../data.json";
 export default function Home() {
   return (
 
-    <div className="relative z-10 flex items-center flex-col overscroll-none">
+    <div className="relative z-10 flex items-center flex-col">
       <div className="flex items-center flex-col max-auto w-full justify-center my-16 px-8">
         <Image 
           src={data.image} 

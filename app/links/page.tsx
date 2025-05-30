@@ -109,7 +109,7 @@ export default function Home() {
     <Star style={{ top: "35%", left: "85%" }} />
     <Star style={{ top: "90%", left: "15%" }} />
     <Star style={{ top: "95%", left: "55%" }} />
-    <div className="relative z-10 flex items-center flex-col overscroll-none">
+    <div className="relative z-10 flex items-center flex-col">
       <div className="flex items-center flex-col max-auto w-full justify-center mt-16 px-8">
         <Image 
           className="rounded-full"
