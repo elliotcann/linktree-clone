@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Libby Rollings - LinkTree",
+  title: "Libby Rollings",
   authors: [
     {
       name: "Elliot Cann",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "Portfolio",
     "Personal Website",
   ],
-  description: "LinkTree for Libby Rollings"
+  description: "Libby Rollings' personal website, showcasing her social media links and portfolio.",
 };
 
 export const viewport = {
