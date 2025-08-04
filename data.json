@@ -17,7 +17,7 @@
         },
         {
             "title":"Follow On Instagram",
-            "href":"https://www.instagram.com/libbymusicuk/",
+            "href":"https://www.instagram.com/libbyrollings/",
             "image":"/Instagram.svg"
         },
         {
@@ -29,6 +29,11 @@
             "title":"Subscribe On YouTube",
             "href":"https://www.youtube.com/libbyrollings",
             "image":"/YouTube.svg"
+        },
+        {
+            "title":"Follow On Facebook",
+            "href":"https://www.facebook.com/share/16uyteAj1d/?mibextid=wwXIfr",
+            "image":"/Facebook.svg"
         }
     ],
 
@@ -44,6 +49,10 @@
         {  
             "title":"YouTube",
             "href":"https://www.youtube.com/libbyrollings"
+        },
+        {
+            "title":"Facebook",
+            "href":"https://www.facebook.com/share/16uyteAj1d/?mibextid=wwXIfr"
         }
     ]
     
